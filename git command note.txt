@@ -1,0 +1,28 @@
+Git command Page : 01 Chandan Mahato
+1. Git connect → Git config –global user.name chandan
+→ Git config –global user.email chandanmahato624@gmail.com
+2. Check Git connection → Git config user.name
+→ Git config user.email
+3. Git status → Git status
+4. Git sort status → Git status -s
+5. Tracking untracking file / Git add file → Git add index.html
+6. Git add all file → Git add -A
+7. Commit staged content / snapshot → Git commit -m “Descriptive message“
+8. Create new empty file → Touch contect.html
+9. Direct commit without staging → Git commit -A -m “Descriptive message”
+10. Recover git file from last commit → Git checkout contact.html
+11. Recover all fit file from last commit → Git commit -f
+12. Git history check → Git log
+13. Last n number history → Git log -p -n
+14. Difference between working dr and staging area → Git diff
+15. Compare last commit and staged → Git diff -–staged
+16. Remove from git bash → Git rm –-cached waste.html
+17. Delete forever → Git rm waste.html
+18. Ignore any file from any location → mylogs.log (paste on gitignore file)
+19. Ignore only git bash → /mylogs.log (paste on gitignore file)
+20. Ignore any folder from git bash→ FolderName/ (paste on gitignore file)
+21. Create new branch → Git branch feature1
+22. Show branch list → Git branch
+23. Switch another branch → Git checkout feature1
+24. Create new branch and direct switch new branch
+→ Git checkout -b feature2
